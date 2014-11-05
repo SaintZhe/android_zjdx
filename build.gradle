@@ -1,0 +1,40 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+//        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.14.1'
+//        classpath 'com.newrelic.agent.android:agent-gradle-plugin:3.378.0'
+    }
+}
+subprojects{
+    // 定义所有子项目的明志
+    repositories{
+        jcenter()
+        mavenCentral()
+    }
+}
+
+// 定义所有子项目共享的一些配置，在子项目中可以直接使用rootProject.compileSdkVersion来引用
+ext{
+    compileSdkVersion = 21
+    targetSdkVersion = 21
+    minSdkVersion = 14
+    buildToolsVersion ="21.1"
+    dependsAndroidSupportV4 = 'com.android.support:support-v4:21.0.0'
+    dependsAndroidAppCompatV7 =  'com.android.support:appcompat-v7:21.0.0'
+    dependsGuava  = 'com.google.guava:guava:18.+'
+    compileOptions = {
+        sourceCompatibility  =  JavaVersion.VERSION_1_7
+        targetCompatibility  =  JavaVersion.VERSION_1_7
+        //设置java编译的编码
+        encoding = "UTF-8"
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.1'
+    scriptFile = 'g'
+}
