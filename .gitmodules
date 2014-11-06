@@ -10,6 +10,3 @@
 [submodule "android-ex"]
 	path = android-ex
 	url = https://coding.net/banxi/android-ex.git
-[submodule "timetable"]
-	path = timetable
-	url = https://coding.net/banxi/timetable.git
