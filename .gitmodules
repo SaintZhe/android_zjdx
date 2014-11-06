@@ -3,10 +3,10 @@
 	url = https://coding.net/banxi/youjia_app.git
 [submodule "UmengSDK"]
 	path = UmengSDK
-	url = git@github.com:banxi1988/UmengSDK.git
+	url = https://github.com/banxi1988/UmengSDK.git
 [submodule "WeiboSDK"]
 	path = WeiboSDK
-	url = git@github.com:banxi1988/WeiboSDK.git
+	url = https://github.com/banxi1988/WeiboSDK.git
 [submodule "android-ex"]
 	path = android-ex
 	url = https://coding.net/banxi/android-ex.git
