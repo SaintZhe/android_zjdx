@@ -1,2 +1,2 @@
-include ':WeiboSDK', ':UmengSDK', 'android-ex'
+include ':WeiboSDK', ':UmengSDK', ':youjia-java', 'android-ex'
 include "youjia-app"

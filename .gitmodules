@@ -10,3 +10,6 @@
 [submodule "android-ex"]
 	path = android-ex
 	url = https://coding.net/banxi/android-ex.git
+[submodule "youjia-java"]
+	path = youjia-java
+	url = https://coding.net/banxi/youjia-java.git
