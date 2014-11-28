@@ -5,7 +5,7 @@ buildscript {
 //        mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.14.4'
+        classpath 'com.android.tools.build:gradle:1.0.0-rc1'
 //        classpath 'com.newrelic.agent.android:agent-gradle-plugin:3.378.0'
     }
 }
@@ -23,8 +23,8 @@ ext{
     targetSdkVersion = 21
     minSdkVersion = 14
     buildToolsVersion ="21.1"
-    dependsAndroidSupportV4 = 'com.android.support:support-v4:21.0.0'
-    dependsAndroidAppCompatV7 =  'com.android.support:appcompat-v7:21.0.0'
+    dependsAndroidSupportV4 = 'com.android.support:support-v4:21.0.2'
+    dependsAndroidAppCompatV7 =  'com.android.support:appcompat-v7:21.0.2'
     dependsGuava  = 'com.google.guava:guava:18.+'
     compileOptions = {
         sourceCompatibility  =  JavaVersion.VERSION_1_7
@@ -35,6 +35,6 @@ ext{
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
+    gradleVersion = '2.2'
     scriptFile = 'g'
 }
