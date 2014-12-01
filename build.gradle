@@ -10,7 +10,7 @@ buildscript {
     }
 }
 subprojects{
-    // 定义所有子项目的明志
+    // 定义所有子项目的明志修复保存头像 FC 的bug
     repositories{
         jcenter()
         mavenCentral()

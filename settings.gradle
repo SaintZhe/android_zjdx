@@ -1,2 +1,3 @@
 include ':youjia-java', 'android-ex'
+include ':WeiboSDK'
 include "youjia-app"
