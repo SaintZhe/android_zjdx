@@ -1,5 +1,5 @@
 #!/bin/bash
-channels="umeng anzhi appchina baidu gfan google_play hiapk meizu qihoo360 tencent wandoujia xiaomi single web"
+channels="umeng anzhi appchina baidu gfan google_play hiapk meizu qihoo360 tencent wandoujia xiaomi huawei lenovo oppo single web"
 #channels="web"
 package(){
     for channel in $channels ; do
