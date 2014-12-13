@@ -33,5 +33,7 @@ oslibs/
 ## ignore 3td party sdk libs
 sdks/
 
+## ignore release dir
+release/
 ## ignore python script
 *.py[cos]
