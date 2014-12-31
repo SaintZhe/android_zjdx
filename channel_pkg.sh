@@ -13,7 +13,7 @@ package(){
     for channel in $channels ; do
         echo $channel
         gradle aYZR -PchannelName=$channel
-        apk=`ls -tU -1 $module_name/build/ | grep 'apk$' | head -1`
+        apk=`ls -t -1 $module_name/build/ | grep 'apk$' | head -1`
         cp $module_name/build/$apk $apk_path/$channel-$apk
     done
 }
