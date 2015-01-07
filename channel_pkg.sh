@@ -5,7 +5,7 @@ package(){
     for channel in $channels ; do
         echo $channel
         gradle aYZR -PchannelName=$channel
-        cp youjia-app/build/com.webapps.yuns_release-2.2.1-22100.apk $apk_path/$channel-2.2.1-22100.apk
+        cp youjia-app/build/com.webapps.yuns_release-2.2.2-22200.apk $apk_path/$channel-2.2.2-22200.apk
     done
 }
 apk_path=release
