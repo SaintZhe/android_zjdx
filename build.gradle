@@ -5,7 +5,7 @@ buildscript {
 //        mavenCentral()
     }
     dependencies {
-        classpath fileTree(dir: 'youjia-app/libs/oneapm-gradle-plugin-v1.0.5/plugin', include: ['*.jar']) //OneAPM
+        classpath fileTree(dir: 'youjia-app/libs/oneapm-gradle-sdk-plugin/plugin', include: ['*.jar']) //OneAPM
         classpath 'com.android.tools.build:gradle:1.0.0-rc1'
 //        classpath 'com.newrelic.agent.android:agent-gradle-plugin:3.378.0'
     }
