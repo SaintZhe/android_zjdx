@@ -20,10 +20,10 @@ subprojects{
 
 // 定义所有子项目共享的一些配置，在子项目中可以直接使用rootProject.compileSdkVersion来引用
 ext{
-    compileSdkVersion = 21
-    targetSdkVersion = 21
+    compileSdkVersion = 22
+    targetSdkVersion = 22
     minSdkVersion = 14
-    buildToolsVersion ="21.1"
+    buildToolsVersion ="22.0.1"
     dependsAndroidSupportV4 = 'com.android.support:support-v4:21.0.2'
     dependsAndroidAppCompatV7 =  'com.android.support:appcompat-v7:21.0.2'
     dependsGuava  = 'com.google.guava:guava:18.+'
