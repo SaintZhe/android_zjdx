@@ -5,9 +5,8 @@ buildscript {
 //        mavenCentral()
     }
     dependencies {
-        classpath fileTree(dir: 'youjia-app/libs/oneapm-gradle-sdk-plugin/plugin', include: ['*.jar']) //OneAPM
-        classpath 'com.android.tools.build:gradle:1.0.0-rc1'
-//        classpath 'com.newrelic.agent.android:agent-gradle-plugin:3.378.0'
+//        classpath fileTree(dir: 'youjia-app/libs/oneapm-gradle-sdk-plugin/plugin', include: ['*.jar']) //OneAPM
+        classpath 'com.android.tools.build:gradle:1.4.0-beta6'
     }
 }
 subprojects{
@@ -20,12 +19,13 @@ subprojects{
 
 // 定义所有子项目共享的一些配置，在子项目中可以直接使用rootProject.compileSdkVersion来引用
 ext{
-    compileSdkVersion = 22
-    targetSdkVersion = 22
-    minSdkVersion = 14
-    buildToolsVersion ="22.0.1"
-    dependsAndroidSupportV4 = 'com.android.support:support-v4:21.0.2'
-    dependsAndroidAppCompatV7 =  'com.android.support:appcompat-v7:21.0.2'
+    compileSdkVersion = 23
+    targetSdkVersion = 23
+    minSdkVersion = 15
+    buildToolsVersion ="23.0.1"
+    androidSupportLibVersion = "23.1.0"
+    dependsAndroidSupportV4 = 'com.android.support:support-v4:23.1.0'
+    dependsAndroidAppCompatV7 =  'com.android.support:appcompat-v7:23.1.0'
     dependsGuava  = 'com.google.guava:guava:18.+'
     compileOptions = {
         sourceCompatibility  =  JavaVersion.VERSION_1_7
@@ -36,6 +36,6 @@ ext{
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.2'
+    gradleVersion = '2.5'
     scriptFile = 'g'
 }
