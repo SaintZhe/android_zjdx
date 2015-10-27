@@ -1,8 +1,8 @@
 #!/bin/bash
-#channels="offline web umeng anzhi appchina baidu gfan google_play hiapk meizu qihoo360 tencent wandoujia xiaomi huawei lenovo oppo single weibo weixin tieba express appshare"
-#channels="offline-01 offline-02 offline-03 offline-04 offline-05 offline-06 offline-07 offline-08 offline-09 offline-10 offline-11 offline-12"
-channels="web"
+#channels="offline web umeng zskb anzhi appchina baidu gfan meizu qihoo360 tencent wandoujia xiaomi huawei lenovo oppo weibo weixin tieba xycm zjls"
+#channels="offline web umeng zskb anzhi appchina baidu gfan google_play hiapk meizu qihoo360 tencent wandoujia xiaomi huawei lenovo oppo single weibo weixin tieba express appshare"
 #channels="offline"
+channels="test"
 apk_path=release # dir which apk dist and mapping.zip dist
 module_name=youjia-app # app module name
 pre_package(){
