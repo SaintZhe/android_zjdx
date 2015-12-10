@@ -3,8 +3,7 @@
 ##     tencent=腾讯 wandoujia=豌豆荚 xiaomi=小米 huawei=华为 lenovo=联想 oppo=oppo应用商店 weibo=新浪微博 weixin=微信 tieba=百度贴吧 zyzs=众用助手
 #channels="offline web xycm zjls umeng zskb anzhi appchina baidu gfan meizu qihoo360 tencent wandoujia xiaomi huawei lenovo oppo weibo weixin tieba zyzs"
 #channels="offline web umeng zskb anzhi appchina baidu gfan google_play hiapk meizu qihoo360 tencent wandoujia xiaomi huawei lenovo oppo single weibo weixin tieba express appshare"
-#channels="offline"
-channels="test"
+channels="offline"
 apk_path=release # dir which apk dist and mapping.zip dist
 module_name=youjia-app # app module name
 pre_package(){
